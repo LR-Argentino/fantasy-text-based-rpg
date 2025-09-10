@@ -52,6 +52,6 @@ mvn test
 ```
 
 ## Main Application
-**Entry Point**: org.example.App
+**Entry Point**: org.fantasyrpg.App
 **Main Method**: public static void main(String[] args)
 **Current Functionality**: Simple "Hello World" console output

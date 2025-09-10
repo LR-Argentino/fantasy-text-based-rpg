@@ -24,19 +24,19 @@
 
     <!--    TODO: Change package name -->
     <!-- Combat System - nur wichtige Ereignisse -->
-    <logger name="org.example.combat" level="INFO" additivity="false">
+    <logger name="org.fantasyrpg.combat" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </logger>
     
     <!-- Character System - detaillierte Logs für Debugging -->
-    <logger name="org.example.character" level="DEBUG" additivity="false">
+    <logger name="org.fantasyrpg.character" level="DEBUG" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </logger>
     
     <!-- Save System - kritische Operationen -->
-    <logger name="org.example.save" level="WARN" additivity="false">
+    <logger name="org.fantasyrpg.save" level="WARN" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </logger>
